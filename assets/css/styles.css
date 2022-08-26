@@ -130,7 +130,12 @@ a.dotted-link:hover {
   margin-bottom: 5px;
   margin-top: 5px;
 }
-
+.navigation .items .selected span {
+  padding-right: 5px;
+  padding-left: 5px;
+  font-weight: bold;
+  color: #3d5a80 ;
+}
 .navigation .items a {
   padding-right: 5px;
   padding-left: 5px;
@@ -240,7 +245,20 @@ a.dotted-link:hover {
   margin-left: 5px;
   font-size: 12px;
 }
-
+.latest .item .date {
+  color: #8f9faf;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato", arial, sans-serif;
+  margin-bottom: 3px;
+}
+.latest .item .job-desc li{
+  color: #778492;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato", arial, sans-serif;
+  margin-bottom: 3px;
+}
 .latest .item .title a {
   color: #778492;
 }
@@ -443,7 +461,7 @@ a.dotted-link:hover {
 }
 
 .skills .skillset .level-title {
-  font-size: 16px;
+  font-size: 20px;
   position: relative;
   margin-top: 0;
   margin-bottom: 10;
@@ -765,7 +783,12 @@ body[data-theme="dark"] .navigation .items span {
   font-weight: bold;
   color: rgba(255, 255, 255, 0.7);
 }
-
+body[data-theme="dark"] .navigation .items .selected span {
+  padding-right: 5px;
+  padding-left: 5px;
+  font-weight: bold;
+  color: #00a8e8;
+}
 body[data-theme="dark"] .navigation .items a:hover {
   text-decoration: underline;
   color: #98c1d9 ;

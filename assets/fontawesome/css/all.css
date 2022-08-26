@@ -2086,6 +2086,9 @@ readers do not read off random characters that represent icons */
 .fa-database::before {
   content: "\f1c0"; }
 
+.fa-database {
+  content: "\f1c0"; }
+
 .fa-delete-left::before {
   content: "\f55a"; }
 
