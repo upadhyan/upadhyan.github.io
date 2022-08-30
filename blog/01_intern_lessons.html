@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nakul Upadhya</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nakul Upadhya">
+    <meta name="author" content="Nakul Upadhya">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="../assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="../assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="../assets/plugins/github-activity/src/github-activity.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css">
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <div class="profile-content">
+		                <h1 class="name">Nakul Upadhya</h1>
+		                <h2 class="desc">Data Scientist</h2>   
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+	            </div><!--//col-->
+	        </div><!--//row-->    
+        </div><!--//container-->
+    </header><!--//header-->
+
+    <header class="navigation ">
+        <div class="container align-items-center">     
+	        <div class="row align-items-center">
+			    <div class="col center-block text-center">     
+		            <ul class = "items list-inline">
+                        <li class = "list-inline-item item"><a href = "../index.html">Home</a></li>
+                        <li class = "list-inline-item item"><span>&#8226;</span></li>
+                        <li class = "list-inline-item item "><a href = "../blog/index.html">Tech Blog</a></li>
+                        <!--<li class = "list-inline-item item"><span>&#8226;</span></li>
+                        <li class = "list-inline-item item"><a href = "../projects/index.html">Projects</a></li>
+                        <li class = "list-inline-item item"><span>&#8226;</span></li>
+                        <li class = "list-inline-item item"><a href = "../coffee/index.html">Coffee Stuff</a></li>
+                        <li class = "list-inline-item item"><span>&#8226;</span></li>
+                        <li class = "list-inline-item item"><a href = "../cooking/index.html">Cooking</a></li>-->
+                    </ul>
+			    </div><!--//col-->
+	        </div><!--//row-->    
+        </div><!--//container-->
+    </header><!--//navigation-->
+
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col">
+                <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Lessons for Beginner Data Scientists</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                
+                                <div class="featured-image has-ribbon">
+                                    <a href= "01_intern_lessons.html" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="../assets/images/kohls_store.jpg" alt="project name" />
+                                    </a>
+                                </div>                                    
+                                <div class="desc text-start">                                    
+                                    <p>This summer I worked at Kohl's as a Data Scientist assisting with Kohl's Hyper-Localization project. 
+                                        My part in this project was helping to create models to segment stores into different cohorts based on the type of customer that visits them. 
+                                        While I've done machine learning and deep learning projects before in classes and as personal projects, working in a retail data science environment taught me a lot of valuable lessons that I'm going to carry over in the future. 
+                                        Most of these lessons boil down into three main tenets. 
+                                    </p>
+                                    <ul>
+                                        <li>Deliver Value not Software</li>
+                                        <li>Resist Complexity, Embrace Simplicity</li>
+                                        <li>Document Literally Everything</li> 
+                                    </ul>
+                                </div><!--//desc-->         
+                                <h3 class="title mb-3">Deliver Value not Software</h3>
+                                <div class="desc text-start">                                    
+                                    <p>As I mentioned before, my role in Hyperlocalization was creating store cohorts, a classic clustering problem. Going into this project, I had big ideas. I immediately starting outlining procedures that were able to identify stores that were on the edge of clusters and had a secondary main customer profile. I also configured my initial model to re-analyze customers every month and re-assign stores to cohorts on a monthly basis, and these are just the tip of the iceberg of all the features I wanted to add to it. </p>
+                                    <p>It was a glorious model that I believed would knock the socks off of every data scientist in the room.  But the ones I really needed to impress weren't the other data scientists, but rather the ones creating product assortments for the stores, the associates creating marketing initiatives, the non-data scientists. And while my model was cool, it wasn't what they needed. </p>
+                                    <p>My model provided a ton of information, but the manufacturing and supply chain of the company could only act on a portion of that information. Primary and secondary customer groups were interesting, but nobody knew how to create store assortments on that information. Monthly updates were interesting, but what the planning team needed was clusters that were relatively static since dynamic clusters would cause confusion when coordinating with external vendors. Additionally, even internal stakeholders couldn't leverage this stream of information since designs and styles need time to be developed. </p>
+                                    <p>By focusing on “creating a program to cluster stores” instead of providing value to a consumer, I got caught up in design and coding and had ignored what the end users wanted. My ideal clustering procedure was like a racecar in a residential neighborhood, cool to have but honestly everyone would just like a Camry since they just want to get groceries. Both cars provide the same value to the customers. </p>
+                                    <p>After these discussions, I scaled back my procedure a ton and focused more on creating a model that fit the current requirements but was flexible enough to incorporate extra features if needed.</p>
+                                </div><!--//desc-->        
+                                <h3 class="title mb-3">Resist Complexity, Embrace Simplicity</h3>
+                                <div class="desc text-start">                                    
+                                    <p>Along with limiting the features and information outputted by my models, I learned that it just as important to resist the urge to use the latest, most powerful models to do my tasks. </p>
+                                    <p>Before I worked on my engine, Kohl's already had a process to group stores into clusters. However, there was a general consensus among the organization that we needed to look into all past models and see if there was any room for improvement and therefore I dived into examining what my predecessors had done before I worked on my model. </p>
+                                    <p>This prior model used Gaussian Mixture Models as the choice for clustering and T-SNE to reduce the tens of features used into a few dimensions. Both of these methods are relatively complex, but they work. However the big problem was that it took forever to run the clustering process and it was hard to understand why the model gave the clusters it did. T-SNE while cool, isn't a very interpretable method. Additionally, explaining this procedure to non-technical stakeholders was a nightmare. </p>
+                                    <p>Once I started re-doing the clustering procedure, I started simple with models you could pick up in an intro to ML course. This was the best decision I've ever made. This simple model performed incredibly well and was comparable to the T-SNE + GMM model but ran in a fraction of the time. Additionally, since the models used were simple, I could explain the process to some of the non-technical stakeholders, something I couldn't do well with the prior model. This had the effect of increasing stakeholder buy-in and conversely helped them outline some extra points of value they thought I could provide. Additionally, I was able to use this model to benchmark any complexity I added and evaluate whether the increased complexity produced results that significantly added value. By resisting the urge to immediately throw complexity at the problem at hand, I was able to create a fast-running, interpretable model.  </p>
+                                </div><!--//desc-->        
+                                <h3 class="title mb-3">Document Literally Everything</h3>
+                                <div class="desc text-start">                                    
+                                    <p>This lesson is one I've been told a hundred times in the past, but working at Kohl's really cemented the importance of (good) documentation. This doesn't just mean “document your code so people can debug it.” Good documentation of your work should include literally everything related to a project. Design decisions you made, info powering that decision, the people who you got that info from. When you perform EDA and data cleaning, write down every question, the answer, and the process you took to get that answer. Also make sure you annotate any notebooks you have and that your code is repeatable. Basically treat your work like you're writing a paper that a plethora of people will be scrutinizing. </p>
+                                    <p>For an example, In the 2nd week of my internship, I had done some analysis on what columns in the data were missing a lot of data, had a ton of outliers, etc. and I had created a few graphs and tables describing the data quality in a Jupyter Notebook. Fast forward a month later and my manager and my mentor were both on vacation, but decisions and information about the data set I had explored needed to be made and provided before they got back. Suddenly, the EDA I did became incredibly valuable and I accidentally became the subject matter expert surrounding this data set. Luckily I had organized by notebooks with headers and experimental descriptions, allowing me to explain and replicate my exploration for the various people I talked to during that week. If I hadn't, Kohl's would have been stalled for 2-3 weeks and I would not have gotten as much exposure </p>
+                                </div><!--//desc-->        
+
+                            </div><!--//item-->
+                                                    
+                            <!--<div class="item row">
+                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-5.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">DevStudio - Boootstrap Template for WebDev Agencies and Freelance Developers</a></h3>
+                                    <p class="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div>                          
+                            </div>//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+            </div><!--//primary-->
+            
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="../assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="../assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="../assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="../assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="../assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="../assets/js/main.js"></script>            
+</body>
+</html> 
+
