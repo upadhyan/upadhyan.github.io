@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-bookshelf",
-          title: "bookshelf",
+  },{id: "nav-reading-list",
+          title: "reading list",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/books/";
+            window.location.href = "/reading-list/";
           },
         },{id: "nav-blog",
           title: "blog",
@@ -170,6 +170,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/minor_detail/";
+            },},{id: "books-perfection",
+          title: 'Perfection',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/perfection/";
+            },},{id: "books-the-dry-heart",
+          title: 'The Dry Heart',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_dry_heart/";
             },},{id: "news-our-work-empowering-decision-trees-via-shape-function-branching-has-been-accepted-to-appear-at-neurips-2025-confetti-ball-read-more-here",
           title: 'Our work “Empowering Decision Trees via Shape Function Branching” has been accepted to...',
           description: "",
