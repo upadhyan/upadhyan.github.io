@@ -1,17 +1,17 @@
 ---
 layout: book-review
-title: Minor Detail
-author: Adania Shibli
+title: The Dry Heart
+author: Natalia Ginzburg
 cover:
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 9781913097172 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+isbn: 0811228789 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: historical-fiction
-tags: israel palestian war
-buy_link: https://shop.queenbooks.ca/item/hvTabYmi136O8l0h492h3Q
-started: 2025-09-23
-finished: 2025-09-16
-released: 2020
-stars: 5
+tags: romance abuse crime
+buy_link: https://shop.queenbooks.ca/item/hvTabYmi136pXSw8eb5Mew
+started: 2025-10-18
+finished: 2025-10-19
+released: 1947
+stars: 3
 goodreads_review: 
 status: Finished
 ---

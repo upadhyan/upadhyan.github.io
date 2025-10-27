@@ -1,16 +1,16 @@
 ---
 layout: book-review
-title: Minor Detail
-author: Adania Shibli
+title: Perfection
+author: Vincenzo Latronico
 cover:
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 9781913097172 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+isbn: 1681378728 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: historical-fiction
-tags: israel palestian war
-buy_link: https://shop.queenbooks.ca/item/hvTabYmi136O8l0h492h3Q
-started: 2025-09-23
-finished: 2025-09-16
-released: 2020
+tags: social-media anxiety panic 
+buy_link: https://shop.queenbooks.ca/item/1SqnOF0xZ8sUdzoPHhzeyg
+started: 2025-08-23
+finished: 2025-08-25
+released: 2025
 stars: 5
 goodreads_review: 
 status: Finished
