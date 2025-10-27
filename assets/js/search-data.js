@@ -94,15 +94,15 @@ ninja.data = [{
             window.location.href = "/blog/2024/photo-gallery/";
           
         },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+      },{id: "post-introduction-to-interpretable-clustering",
         
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'Introduction to Interpretable Clustering <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        description: "What is interpretable clustering and why is it important.Continue reading on TDS Archive »",
         section: "Posts",
         handler: () => {
           
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+            window.open("https://medium.com/data-science/introduction-to-interpretable-clustering-d0e07fbd2c99?source=rss-4d9dddc62a80------2", "_blank");
           
         },
       },{id: "post-a-post-with-tabs",
@@ -226,6 +226,28 @@ ninja.data = [{
             window.location.href = "/blog/2023/tikzjax/";
           
         },
+      },{id: "post-neural-basis-models-for-interpretability",
+        
+          title: 'Neural Basis Models for Interpretability <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Unpacking the new interpretable model proposed by Meta AIContinue reading on TDS Archive »",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/data-science/neural-basis-models-for-interpretability-fd04ac958ff2?source=rss-4d9dddc62a80------2", "_blank");
+          
+        },
+      },{id: "post-critical-tools-for-ethical-and-explainable-ai",
+        
+          title: 'Critical Tools for Ethical and Explainable AI <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "A guide to essential libraries and toolkits that can help you create trustworthy yet robust modelsContinue reading on TDS Archive »",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/data-science/critical-tools-for-ethical-and-explainable-ai-ed0e336d82a?source=rss-4d9dddc62a80------2", "_blank");
+          
+        },
       },{id: "post-a-post-with-bibliography",
         
           title: "a post with bibliography",
@@ -237,6 +259,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/post-bibliography/";
           
         },
+      },{id: "post-node-tabular-focused-neural-trees",
+        
+          title: 'NODE: Tabular-Focused Neural Trees <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Exploring NODE: A Neural Decision Tree architecture for tabular dataContinue reading on TDS Archive »",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/data-science/node-tabular-focused-neural-trees-ee08c752fcd2?source=rss-4d9dddc62a80------2", "_blank");
+          
+        },
       },{id: "post-a-post-with-jupyter-notebook",
         
           title: "a post with jupyter notebook",
@@ -246,6 +279,28 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/jupyter-notebook/";
+          
+        },
+      },{id: "post-neural-prototype-trees",
+        
+          title: 'Neural Prototype Trees <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Explainable image classification through mimicking human reasoning.Continue reading on TDS Archive »",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/data-science/neural-prototype-trees-f7bac36437a9?source=rss-4d9dddc62a80------2", "_blank");
+          
+        },
+      },{id: "post-the-return-of-the-fallen-transformers-for-forecasting",
+        
+          title: 'The Return of the Fallen: Transformers for Forecasting <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/data-science/the-return-of-the-fallen-transformers-for-forecasting-24f6fec5bc30?source=rss-4d9dddc62a80------2", "_blank");
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
@@ -292,6 +347,28 @@ ninja.data = [{
             window.location.href = "/blog/2023/videos/";
           
         },
+      },{id: "post-neural-networks-as-decision-trees",
+        
+          title: 'Neural Networks as Decision Trees <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/data-science/neural-networks-as-decision-trees-89cd9fdcdf6a?source=rss-4d9dddc62a80------2", "_blank");
+          
+        },
+      },{id: "post-xai-for-forecasting-basis-expansion",
+        
+          title: 'XAI for Forecasting: Basis Expansion <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/data-science/xai-for-forecasting-basis-expansion-17a16655b6e4?source=rss-4d9dddc62a80------2", "_blank");
+          
+        },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
         
           title: "displaying beautiful tables with Bootstrap Tables",
@@ -314,6 +391,28 @@ ninja.data = [{
             window.location.href = "/blog/2023/table-of-contents/";
           
         },
+      },{id: "post-explainable-ai-and-chatgpt-detection",
+        
+          title: 'Explainable AI and ChatGPT Detection <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@upadhyan/explainable-ai-and-chatgpt-detection-4057e0386fc4?source=rss-4d9dddc62a80------2", "_blank");
+          
+        },
+      },{id: "post-shap-for-time-series-event-detection",
+        
+          title: 'SHAP for Time Series Event Detection <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/data-science/shap-for-time-series-event-detection-5b4d9d0f96f4?source=rss-4d9dddc62a80------2", "_blank");
+          
+        },
       },{id: "post-a-post-with-giscus-comments",
         
           title: "a post with giscus comments",
@@ -323,17 +422,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
       },{id: "post-a-post-with-redirect",
