@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -158,11 +165,11 @@ ninja.data = [{
             window.location.href = "/blog/1990/plotly/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-minor-detail",
+          title: 'Minor Detail',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/minor_detail/";
             },},{id: "news-our-work-empowering-decision-trees-via-shape-function-branching-has-been-accepted-to-appear-at-neurips-2025-confetti-ball-read-more-here",
           title: 'Our work “Empowering Decision Trees via Shape Function Branching” has been accepted to...',
           description: "",
