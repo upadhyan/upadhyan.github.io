@@ -2,7 +2,7 @@
 layout: book-review
 title: Perfection
 author: Vincenzo Latronico
-cover:
+cover: pfection.jpeg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 1681378728 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: historical-fiction
