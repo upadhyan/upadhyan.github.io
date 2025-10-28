@@ -7,8 +7,7 @@ first_name: Nakul
 middle_name: 
 last_name: Upadhya
 contact_note: >
-  Contact me via email at nakul [dot] upadhya [at] mail [dot] utoronto [dot] ca
-  or connect on [LinkedIn](https://www.linkedin.com/in/nakul-upadhya/). 
+  Contact me via email at nakul [dot] upadhya [at] mail [dot] utoronto [dot] ca. 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Doctoral Candidate at UofT
 footer_text: >
@@ -86,7 +85,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Learning Out Loud # blog_name will be displayed in your blog page
+blog_name:  # blog_name will be displayed in your blog page
 blog_description: Discussions on interpretability, transparency, and accountability in AI systems along with personal reflections on the state of the world. 
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
