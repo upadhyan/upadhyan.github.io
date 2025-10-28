@@ -158,7 +158,12 @@ ninja.data = [{
             window.location.href = "/blog/1990/plotly/";
           
         },
-      },{id: "books-minor-detail",
+      },{id: "books-the-english-understand-wool",
+          title: 'The English Understand Wool',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/english_wool/";
+            },},{id: "books-minor-detail",
           title: 'Minor Detail',
           description: "",
           section: "Books",handler: () => {
@@ -168,6 +173,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/perfection/";
+            },},{id: "books-in-the-skin-of-a-lion",
+          title: 'In the Skin of a Lion',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/skin_of_lion/";
             },},{id: "books-the-dry-heart",
           title: 'The Dry Heart',
           description: "",
