@@ -11,7 +11,7 @@ buy_link: https://shop.queenbooks.ca/item/hvTabYmi136O8l0h492h3Q
 started: 2025-09-23
 finished: 2025-09-16
 released: 2020
-stars: 5
+stars: 4
 goodreads_review: 
 status: Finished
 ---

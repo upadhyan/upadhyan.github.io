@@ -1,16 +1,16 @@
 ---
 layout: book-review
-title: Perfection
-author: Vincenzo Latronico
-cover: https://cdn1.bookmanager.com/i/m?b=1SqnOF0xZ8sUdzoPHhzeyg&cb=1734755479
+title: The English Understand Wool
+author: Helen DeWitt
+cover: https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1660942303i/59468833.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 1804271055 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+isbn: 0811230074 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: historical-fiction
-tags: social-media anxiety panic 
-buy_link: https://shop.queenbooks.ca/item/1SqnOF0xZ8sUdzoPHhzeyg
-started: 2025-08-23
-finished: 2025-08-25
-released: 2025
+tags: crime drama funny publishing
+buy_link: https://shop.queenbooks.ca/item/hvTabYmi135QVBB9qFgrUg
+started: 2025-08-19
+finished: 2025-08-12
+released: 2022
 stars: 5
 goodreads_review: 
 status: Finished

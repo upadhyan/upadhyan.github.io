@@ -1,17 +1,17 @@
 ---
 layout: book-review
-title: Perfection
-author: Vincenzo Latronico
-cover: https://cdn1.bookmanager.com/i/m?b=1SqnOF0xZ8sUdzoPHhzeyg&cb=1734755479
+title: In the Skin of a Lion
+author: Michael Ondaatje
+cover: https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1405864361i/5946.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 1804271055 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+isbn: 9780679772668 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: historical-fiction
-tags: social-media anxiety panic 
-buy_link: https://shop.queenbooks.ca/item/1SqnOF0xZ8sUdzoPHhzeyg
-started: 2025-08-23
-finished: 2025-08-25
-released: 2025
-stars: 5
+tags: romance crime toronto 
+buy_link: https://shop.queenbooks.ca/item/Fx5eo_oIhwRkTGira7tNsg
+started: 2025-07-07
+finished: 2025-07-04
+released: 1987
+stars: 2
 goodreads_review: 
 status: Finished
 ---
