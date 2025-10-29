@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: newme.jpg
+  image: https://media.licdn.com/dms/image/v2/C5603AQG5RqZr8rpCwg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1656508713693?e=1763596800&v=beta&t=sTSMwvms9kz5WJO0Hy9-Dg4s5wv0_tfSjDPxgtSnTpk
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>8135 Bahen Center</p>
