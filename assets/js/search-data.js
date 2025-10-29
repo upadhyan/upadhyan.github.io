@@ -17,14 +17,14 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "See my full CV by clicking the PDF above.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
+          title: "Repositories",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -163,6 +163,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/english_wool/";
+            },},{id: "books-lord-of-the-mysteries",
+          title: 'Lord of the Mysteries',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/lotm/";
             },},{id: "books-minor-detail",
           title: 'Minor Detail',
           description: "",
