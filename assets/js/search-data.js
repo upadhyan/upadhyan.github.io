@@ -158,11 +158,26 @@ ninja.data = [{
             window.location.href = "/blog/1990/plotly/";
           
         },
-      },{id: "books-the-english-understand-wool",
+      },{id: "books-martyr",
+          title: 'Martyr!',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Martyr/";
+            },},{id: "books-the-heart-of-a-dog",
+          title: 'The Heart of a Dog',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/adogheart/";
+            },},{id: "books-the-english-understand-wool",
           title: 'The English Understand Wool',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/english_wool/";
+            },},{id: "books-kick-the-latch",
+          title: 'Kick the Latch',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/kick_the_latch/";
             },},{id: "books-lord-of-the-mysteries",
           title: 'Lord of the Mysteries',
           description: "",
