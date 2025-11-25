@@ -29,9 +29,9 @@ module ExternalPosts
         feed = Feedjira.parse(xml)
         process_entries(site, src, feed.entries)
       rescue Feedjira::NoParserAvailable
-        puts "...could not parse feed: #{src['rss_url']}"
+        Jekyll.logger.warn "External Posts:", "could not parse feed: #{src['rss_url']}"
       rescue StandardError => e
-        puts "...error fetching #{src['rss_url']}: #{e.message}"
+        Jekyll.logger.warn "External Posts:", "error fetching #{src['rss_url']}: #{e.message}"
       end
     end
 
