@@ -10,12 +10,12 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Toronto, Toronto, Ontario, Canada
+      institution: University of Toronto, Toronto, ON, CA
       year: 2027
       description:
         - Advisor: Prof. Eldan Cohen
     - title: Bachelor of Science in Industrial Engineering
-      institution: Purdue University, West Lafayette, Indiana, US 
+      institution: Purdue University, West Lafayette, IN, US 
       year: 2022
       description:
         - Minor in Computer Science
