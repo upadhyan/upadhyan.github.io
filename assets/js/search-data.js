@@ -98,7 +98,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/thedoor/";
-            },},{id: "news-our-work-empowering-decision-trees-via-shape-function-branching-has-been-accepted-to-appear-at-neurips-2025-confetti-ball-read-more-here",
+            },},{id: "news-our-work-neurcam-interpretable-neural-clustering-via-additive-models-has-been-accepted-to-appear-at-ecai-2024-confetti-ball",
+          title: 'Our work “NeurCAM: Interpretable Neural Clustering Via Additive Models” has been accepted to...',
+          description: "",
+          section: "News",},{id: "news-our-work-empowering-decision-trees-via-shape-function-branching-has-been-accepted-to-appear-at-neurips-2025-confetti-ball-read-more-here",
           title: 'Our work “Empowering Decision Trees via Shape Function Branching” has been accepted to...',
           description: "",
           section: "News",},{id: "projects-project-1",
