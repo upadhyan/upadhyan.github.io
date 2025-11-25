@@ -23,10 +23,16 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
-      feed = Feedjira.parse(xml)
-      process_entries(site, src, feed.entries)
+      begin
+        xml = HTTParty.get(src['rss_url']).body
+        return if xml.nil?
+        feed = Feedjira.parse(xml)
+        process_entries(site, src, feed.entries)
+      rescue Feedjira::NoParserAvailable
+        puts "...could not parse feed: #{src['rss_url']}"
+      rescue StandardError => e
+        puts "...error fetching #{src['rss_url']}: #{e.message}"
+      end
     end
 
     def process_entries(site, src, entries)
