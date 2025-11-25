@@ -37,117 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/reading-list/";
           },
-        },{id: "post-introduction-to-interpretable-clustering",
-        
-          title: 'Introduction to Interpretable Clustering <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "What is interpretable clustering and why is it important.Continue reading on TDS Archive »",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/data-science/introduction-to-interpretable-clustering-d0e07fbd2c99?source=rss-4d9dddc62a80------2", "_blank");
-          
-        },
-      },{id: "post-neural-basis-models-for-interpretability",
-        
-          title: 'Neural Basis Models for Interpretability <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "Unpacking the new interpretable model proposed by Meta AIContinue reading on TDS Archive »",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/data-science/neural-basis-models-for-interpretability-fd04ac958ff2?source=rss-4d9dddc62a80------2", "_blank");
-          
-        },
-      },{id: "post-critical-tools-for-ethical-and-explainable-ai",
-        
-          title: 'Critical Tools for Ethical and Explainable AI <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "A guide to essential libraries and toolkits that can help you create trustworthy yet robust modelsContinue reading on TDS Archive »",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/data-science/critical-tools-for-ethical-and-explainable-ai-ed0e336d82a?source=rss-4d9dddc62a80------2", "_blank");
-          
-        },
-      },{id: "post-node-tabular-focused-neural-trees",
-        
-          title: 'NODE: Tabular-Focused Neural Trees <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "Exploring NODE: A Neural Decision Tree architecture for tabular dataContinue reading on TDS Archive »",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/data-science/node-tabular-focused-neural-trees-ee08c752fcd2?source=rss-4d9dddc62a80------2", "_blank");
-          
-        },
-      },{id: "post-neural-prototype-trees",
-        
-          title: 'Neural Prototype Trees <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "Explainable image classification through mimicking human reasoning.Continue reading on TDS Archive »",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/data-science/neural-prototype-trees-f7bac36437a9?source=rss-4d9dddc62a80------2", "_blank");
-          
-        },
-      },{id: "post-the-return-of-the-fallen-transformers-for-forecasting",
-        
-          title: 'The Return of the Fallen: Transformers for Forecasting <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/data-science/the-return-of-the-fallen-transformers-for-forecasting-24f6fec5bc30?source=rss-4d9dddc62a80------2", "_blank");
-          
-        },
-      },{id: "post-neural-networks-as-decision-trees",
-        
-          title: 'Neural Networks as Decision Trees <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/data-science/neural-networks-as-decision-trees-89cd9fdcdf6a?source=rss-4d9dddc62a80------2", "_blank");
-          
-        },
-      },{id: "post-xai-for-forecasting-basis-expansion",
-        
-          title: 'XAI for Forecasting: Basis Expansion <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/data-science/xai-for-forecasting-basis-expansion-17a16655b6e4?source=rss-4d9dddc62a80------2", "_blank");
-          
-        },
-      },{id: "post-explainable-ai-and-chatgpt-detection",
-        
-          title: 'Explainable AI and ChatGPT Detection <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@upadhyan/explainable-ai-and-chatgpt-detection-4057e0386fc4?source=rss-4d9dddc62a80------2", "_blank");
-          
-        },
-      },{id: "post-shap-for-time-series-event-detection",
-        
-          title: 'SHAP for Time Series Event Detection <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/data-science/shap-for-time-series-event-detection-5b4d9d0f96f4?source=rss-4d9dddc62a80------2", "_blank");
-          
-        },
-      },{id: "post-post-template",
+        },{id: "post-post-template",
         
           title: "post template",
         
@@ -203,6 +93,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_dry_heart/";
+            },},{id: "books-the-door",
+          title: 'The Door',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/thedoor/";
             },},{id: "news-our-work-empowering-decision-trees-via-shape-function-branching-has-been-accepted-to-appear-at-neurips-2025-confetti-ball-read-more-here",
           title: 'Our work “Empowering Decision Trees via Shape Function Branching” has been accepted to...',
           description: "",
