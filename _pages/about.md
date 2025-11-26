@@ -29,6 +29,8 @@ latest_posts:
 Hi! I'm Nakul Upadhya and I'm a Doctoral Candidate at The University of Toronto in the [Optimization and Machine Learning (OptiMaL) Lab](https://optimal.mie.utoronto.ca/) at the University of Toronto under Professor [Eldan Cohen](https://discover.research.utoronto.ca/25612-eldan-cohen). My research focuses on developing inherently interpretable machine learning models for tabular and time-series data, with applications in manufacturing and healthcare.
 
 
+
+
 <!-- 
 Doctoral Candidate @ The University of Toronto | Researching inherently interpretable machine learning approaches for tabular and time-series data.
 
