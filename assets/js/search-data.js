@@ -164,6 +164,13 @@ ninja.data = [{
           window.open("https://github.com/upadhyan", "_blank");
         },
       },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/upadhyan", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
