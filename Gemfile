@@ -27,6 +27,7 @@ end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
+    gem 'activesupport'  # used by google-scholar-citations and inspirehep-citations plugins
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
