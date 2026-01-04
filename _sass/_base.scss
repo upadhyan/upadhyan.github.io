@@ -263,9 +263,11 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 
   img {
-    height: 56px;
+    height: 40px;
+    max-height: 40px;
     width: auto;
     display: block;
+    object-fit: contain;
   }
 
   &:hover {
