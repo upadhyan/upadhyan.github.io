@@ -84,10 +84,15 @@ layout: default
   </header>
 
   <article>
+    {% assign cover_url = page.cover %}
+    {% assign cover_prefix = page.cover | slice: 0, 4 %}
+    {% unless cover_prefix == 'http' %}
+      {% assign cover_url = page.cover | prepend: '/' | prepend: site.baseurl %}
+    {% endunless %}
     {% if content == '' %}
       <figure class="empty-review">
         {% if page.cover %}
-          <img class="empty-review-cover" alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}">
+          <img class="empty-review-cover" alt="{{ page.title }} cover" src="{{ cover_url }}">
           <figcaption class="empty-review-caption">
             {{ page.title }}
           </figcaption>
@@ -96,7 +101,7 @@ layout: default
     {% else %}
       <figure>
         {% if page.cover %}
-          <img alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}">
+          <img alt="{{ page.title }} cover" src="{{ cover_url }}">
           <figcaption>
             {{ page.title }}
           </figcaption>

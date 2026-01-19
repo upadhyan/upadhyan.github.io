@@ -22,7 +22,12 @@ layout: page
       <figure class="cover">
         <a class="cover-link" href="{{ item.url | relative_url }}">
           {% if item.cover %}
-            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
+            {% assign cover_prefix = item.cover | slice: 0, 4 %}
+            {% if cover_prefix == 'http' %}
+              <img alt="{{ item.title }} cover" src="{{ item.cover }}" style="height:200px">
+            {% else %}
+              <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
+            {% endif %}
           {% endif %}
         </a>
       </figure>
