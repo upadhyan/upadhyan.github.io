@@ -3,7 +3,8 @@ layout: coffee-review
 title: "The New School - Lychee"
 roaster: "Black and White Roasters"
 origin: "75% Aricha Washed (Columbia) | 25% José Posada - Lychee (Ethiopia)"
-masl: 1900
+masl: 0000
+process: Washed, Co-ferment
 cover: https://www.blackwhiteroasters.com/products/r-the-new-school?srsltid=AfmBOoq66zS4arF3k1M7_v_wC690zno4d10VHfRHCcJ0GeeqVjGPv0lE
 tags: lychee-soda, sweet-lemon, milk-chocolate
 categories: filter, espresso
