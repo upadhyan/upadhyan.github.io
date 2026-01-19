@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
+        },{id: "nav-coffee",
+          title: "Coffee",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/coffee/";
           },
         },{id: "nav-reading-list",
           title: "Reading List",
@@ -36,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/reading-list/";
-          },
-        },{id: "nav-recent-coffee",
-          title: "Recent Coffee",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/coffee/";
           },
         },{id: "post-introduction-to-interpretable-clustering",
         
