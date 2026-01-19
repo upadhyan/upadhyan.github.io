@@ -220,6 +220,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/new_school/";
+            },},{id: "coffee-finca-tamana-elias-roa",
+          title: 'Finca Tamana - Elias Roa',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/sept_finc_tamana/";
             },},{id: "news-our-work-neurcam-interpretable-neural-clustering-via-additive-models-has-been-accepted-to-appear-at-ecai-2024-confetti-ball",
           title: 'Our work “NeurCAM: Interpretable Neural Clustering Via Additive Models” has been accepted to...',
           description: "",
