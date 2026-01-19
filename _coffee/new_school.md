@@ -12,7 +12,7 @@ tags: lychee-soda, sweet-lemon, milk-chocolate
 categories: filter, espresso
 buy_link: https://www.blackwhiteroasters.com/products/r-the-new-school-lychee
 stars: 4.0
-roasted: 2026-12-31
+roasted: 2026-1-01
 ---
 
 TBD

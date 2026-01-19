@@ -3,7 +3,7 @@ layout: book-shelf
 title: Reading List
 permalink: /reading-list/
 nav: true
-nav_order: 5
+nav_order: 4
 collection: books
 ---
 <!-- 

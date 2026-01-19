@@ -12,7 +12,7 @@ tags: lychee-soda, sweet-lemon, milk-chocolate
 categories: filter, espresso
 buy_link: https://september.coffee/products/elias-roa-finca-tamana
 stars: 4.0
-roasted: 2026-12-31
+roasted: 2025-12-31
 ---
 
 TBD

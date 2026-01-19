@@ -1,8 +1,8 @@
 ---
 layout: coffee-shelf
-title: Recent Coffee
+title: Coffee
 permalink: /coffee/
 nav: true
-nav_order: 6
+nav_order: 3
 collection: coffee
 ---
