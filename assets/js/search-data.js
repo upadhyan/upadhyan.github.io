@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/reading-list/";
           },
+        },{id: "nav-recent-coffee",
+          title: "Recent Coffee",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/coffee/";
+          },
         },{id: "post-introduction-to-interpretable-clustering",
         
           title: 'Introduction to Interpretable Clustering <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -208,6 +215,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/thedoor/";
+            },},{id: "coffee-example-single-origin",
+          title: 'Example Single Origin',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/example/";
             },},{id: "news-our-work-neurcam-interpretable-neural-clustering-via-additive-models-has-been-accepted-to-appear-at-ecai-2024-confetti-ball",
           title: 'Our work “NeurCAM: Interpretable Neural Clustering Via Additive Models” has been accepted to...',
           description: "",
