@@ -4,15 +4,16 @@ layout: page
 {{ content }}
 
 {% if page.collection and page.collection.size > 0 %}
-  {% assign collection = site[page.collection] %}
+  {% assign collection = site[page.collection] | sort: 'roasted' | reverse %}
   {% if collection and collection.size > 0 %}
-    {% for item in collection reversed %}
-      {% assign current_year = item.date | date: '%Y' %}
+    {% for item in collection %}
+      {% assign item_date = item.roasted | default: item.date %}
+      {% assign current_year = item_date | date: '%Y' %}
       {% if current_year != year %}
         {% unless forloop.first %}
           </ul>
         {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
+        <h1 id="y{{ current_year }}">
           <a href="{{ current_year | prepend: '/coffee/' | relative_url }}">{{ current_year }}</a>
         </h1>
         <ul>
