@@ -208,6 +208,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/thedoor/";
+            },},{id: "coffee-downtempo-decaf",
+          title: 'Downtempo Decaf',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/downtempo_decaf/";
             },},{id: "coffee-the-new-school-lychee",
           title: 'The New School - Lychee',
           description: "",
