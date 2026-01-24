@@ -7,7 +7,7 @@ producer: "Worka Sakaro Washing Station"
 varietal: "Hateso (74112), Gibirinna (74110)"
 masl: 0000
 process: Natural
-cover: assets\img\coffee\worka_sakaro_landrace_2026.jpg
+cover: assets/img/coffee/worka_sakaro_landrace_2026.jpg
 tags: Raspberry Jam, Rooibos, White Chocolate
 categories: filter, espresso
 buy_link: https://maps.app.goo.gl/MMyMTrjxCucUpn5C8
@@ -16,12 +16,12 @@ roasted: 2026-01-07
 ---
 
 Information on the Varietals: 
-* Hateso (74112): https://dapperandwise.com/blogs/producer-spotlight/74112-and-other-delicious-coffees-%F0%9F%A4%96 
-* Gibirinna (74110): https://samplecoffee.com.au/coffee/varietals/74110
+* Hateso (74112): [https://dapperandwise.com/blogs/producer-spotlight/74112-and-other-delicious-coffees-%F0%9F%A4%96](https://dapperandwise.com/blogs/producer-spotlight/74112-and-other-delicious-coffees-%F0%9F%A4%96) 
+* Gibirinna (74110): [https://samplecoffee.com.au/coffee/varietals/74110](https://samplecoffee.com.au/coffee/varietals/74110)
 
 Incredibly, incredibly sweet! The white chocolate is probably the most prominent note for filter coffee, but the jam comes out and hits you when using it as espresso. Incredibly flexible and just an overall really good coffee. 
 
-![Worka Sakaro coffee](assets/img/coffee/aesthetic_worka.jpg)
+![Worka Sakaro coffee](/assets/img/coffee/aesthetic_worka.jpg)
 
 
 
