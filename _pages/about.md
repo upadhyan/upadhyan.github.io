@@ -26,11 +26,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 5 # leave blank to include all the blog posts
 ---
+
+{% include figure.liquid path="/assets/img/coffee/aesthetic_worka.jpg" class="img-fluid" %} 
+
 Hi! I'm Nakul Upadhya and I'm a Doctoral Candidate at The University of Toronto in the [Optimization and Machine Learning (OptiMaL) Lab](https://optimal.mie.utoronto.ca/) at the University of Toronto under Professor [Eldan Cohen](https://discover.research.utoronto.ca/25612-eldan-cohen). My research focuses on developing inherently interpretable machine learning models for tabular and time-series data, with applications in manufacturing and healthcare.
 
 
-Apart from research, I'm very interested in speciality coffee and trying new brews and cafes. Currently I'm developing a machine learning model for predicting espresso grind sizes for various coffees. If you are interested in contributing data for this project, send me an email! 
-
+Apart from research, I'm very interested in speciality coffee and trying new coffee beans and cafes. [Check out the coffee I'm drinking](/coffee/)! Currently I'm developing a machine learning model for predicting espresso grind sizes for various coffees. If you are interested in contributing data for this project, send me an email!
 
 <!-- 
 Doctoral Candidate @ The University of Toronto | Researching inherently interpretable machine learning approaches for tabular and time-series data.
