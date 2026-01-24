@@ -223,6 +223,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/sept_finc_tamana/";
+            },},{id: "coffee-worka-sakaro",
+          title: 'Worka Sakaro',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/worka_landrace_2026/";
             },},{id: "news-our-work-neurcam-interpretable-neural-clustering-via-additive-models-has-been-accepted-to-appear-at-ecai-2024-confetti-ball",
           title: 'Our work “NeurCAM: Interpretable Neural Clustering Via Additive Models” has been accepted to...',
           description: "",
