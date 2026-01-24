@@ -16,13 +16,10 @@ roasted: 2026-01-07
 ---
 
 Information on the Varietals: 
-* Hateso (74112): [https://dapperandwise.com/blogs/producer-spotlight/74112-and-other-delicious-coffees-%F0%9F%A4%96](https://dapperandwise.com/blogs/producer-spotlight/74112-and-other-delicious-coffees-%F0%9F%A4%96) 
-* Gibirinna (74110): [https://samplecoffee.com.au/coffee/varietals/74110](https://samplecoffee.com.au/coffee/varietals/74110)
+* Hateso (74112): <https://dapperandwise.com/blogs/producer-spotlight/74112-and-other-delicious-coffees-%F0%9F%A4%96>
+* Gibirinna (74110): <https://samplecoffee.com.au/coffee/varietals/74110>
 
 Incredibly, incredibly sweet! The white chocolate is probably the most prominent note for filter coffee, but the jam comes out and hits you when using it as espresso. Incredibly flexible and just an overall really good coffee. 
-
-![Worka Sakaro coffee](/assets/img/coffee/aesthetic_worka.jpg)
-
 
 
 ### Brewing Information 
