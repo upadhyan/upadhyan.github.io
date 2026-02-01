@@ -208,6 +208,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/thedoor/";
+            },},{id: "coffee-pinky-swear",
+          title: 'Pinky Swear',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/blue_lagoon/";
             },},{id: "coffee-downtempo-decaf",
           title: 'Downtempo Decaf',
           description: "",
@@ -218,6 +223,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/new_school/";
+            },},{id: "coffee-pinky-swear",
+          title: 'Pinky Swear',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/pink_swear/";
             },},{id: "coffee-finca-tamana-elias-roa",
           title: 'Finca Tamana - Elias Roa',
           description: "",
@@ -236,6 +246,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-catch-us-at-the-2026-university-of-toronto-data-science-institute-talent-showcase-we-will-be-presenting-our-work-empowering-decision-trees-via-shape-function-branching",
           title: 'Catch us at the 2026 University of Toronto Data Science Institute Talent Showcase....',
+          description: "",
+          section: "News",},{id: "news-i-m-happy-to-announce-i-ll-be-teaching-the-deep-learning-section-of-the-data-science-and-machine-learning-software-foundations-certificates-from-feb-10th-19th-catch-us-at-the-2026-university-of-toronto-data-science-institute-talent-showcase-we-will-be-presenting-our-work-empowering-decision-trees-via-shape-function-branching",
+          title: 'I’m happy to announce I’ll be teaching the Deep Learning section of the...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
