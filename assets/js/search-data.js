@@ -208,8 +208,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/thedoor/";
-            },},{id: "coffee-pinky-swear",
-          title: 'Pinky Swear',
+            },},{id: "coffee-blue-lagoon",
+          title: 'Blue Lagoon',
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/blue_lagoon/";
