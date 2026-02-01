@@ -8,14 +8,14 @@ varietal: "Pink Bourbon"
 masl: 1650
 process: Washed
 cover: assets/img/coffee/sept_finc_taman_2026.png
-tags: lychee-soda, sweet-lemon, milk-chocolate
+tags: Grapefruit, Lemonade, Almond
 categories: filter, espresso
 buy_link: https://september.coffee/products/elias-roa-finca-tamana
 stars: 4.0
 roasted: 2025-12-31
 ---
 
-TBD
+Sweet, aromatic, pleasant. I went through this bag very fast as its one of those coffees that, while not super funky, just makes you want a TON of it. 
 
 ## From the Roasters
 ```
