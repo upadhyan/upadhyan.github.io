@@ -7,7 +7,7 @@ producer: "Buku Abel Washing Station"
 varietal: "Local Landrace Varietals"
 masl: 2100
 process: Natural
-cover: assets/img/coffee/blue_lagoon_2026.jpg
+cover: assets/img/coffee/blue_lagoon_2026.webp
 tags: Strawberry, Blueberry, Orange Cake
 categories: filter, espresso
 buy_link: https://www.dakcoffeeroasters.com/shop/coffee/blue-lagoon?quantity=250g&roast=espresso

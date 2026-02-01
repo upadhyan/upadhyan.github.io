@@ -7,7 +7,7 @@ producer: "Faver Ninco"
 varietal: "Pink Bourbon (Landrace)"
 masl: 2100
 process: Washed
-cover: assets/img/coffee/dak_pinkyswear_2026.jpg
+cover: assets/img/coffee/dak_pinkyswear_2026.webp
 tags: Figs, Jasmine, Hibiscus
 categories: filter
 buy_link: https://www.dakcoffeeroasters.com/shop/coffee/pinky-swear?quantity=125g&roast=filter
