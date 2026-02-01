@@ -1,6 +1,6 @@
 ---
 layout: coffee-review
-title: "Pinky Swear"
+title: "Blue Lagoon"
 roaster: "DAK"
 origin: Ethiopia
 producer: "Buku Abel Washing Station"
