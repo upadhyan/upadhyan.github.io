@@ -213,6 +213,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/blue_lagoon/";
+            },},{id: "coffee-decaf-elixer",
+          title: 'Decaf Elixer',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/decaf_elixer/";
             },},{id: "coffee-downtempo-decaf",
           title: 'Downtempo Decaf',
           description: "",
