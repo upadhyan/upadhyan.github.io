@@ -257,7 +257,7 @@ ninja.data = [{
           section: "News",},{id: "news-catch-us-at-the-2026-university-of-toronto-data-science-institute-talent-showcase-we-will-be-presenting-our-work-empowering-decision-trees-via-shape-function-branching",
           title: 'Catch us at the 2026 University of Toronto Data Science Institute Talent Showcase....',
           description: "",
-          section: "News",},{id: "news-i-m-happy-to-announce-i-ll-be-teaching-the-deep-learning-section-of-the-data-science-and-machine-learning-software-foundations-certificates-from-feb-10th-19th-catch-us-at-the-2026-university-of-toronto-data-science-institute-talent-showcase-we-will-be-presenting-our-work-empowering-decision-trees-via-shape-function-branching",
+          section: "News",},{id: "news-i-m-happy-to-announce-i-ll-be-teaching-the-deep-learning-section-of-the-data-science-and-machine-learning-software-foundations-certificates-from-feb-10th-19th",
           title: 'I’m happy to announce I’ll be teaching the Deep Learning section of the...',
           description: "",
           section: "News",},{id: "projects-project-1",
