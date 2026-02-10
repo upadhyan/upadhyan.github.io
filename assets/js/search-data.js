@@ -208,6 +208,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/thedoor/";
+            },},{id: "books-the-way-of-kings",
+          title: 'The Way of Kings',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/way-of-kings/";
             },},{id: "coffee-blue-lagoon",
           title: 'Blue Lagoon',
           description: "",
