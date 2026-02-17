@@ -213,6 +213,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/way-of-kings/";
+            },},{id: "books-words-of-radiance",
+          title: 'Words of Radiance',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/words-of-radiance/";
             },},{id: "coffee-aquiares-turrialba",
           title: 'Aquiares Turrialba',
           description: "",
