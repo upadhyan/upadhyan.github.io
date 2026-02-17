@@ -213,6 +213,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/way-of-kings/";
+            },},{id: "coffee-aquiares-turrialba",
+          title: 'Aquiares Turrialba',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/Aquiares_Turrialba_buno/";
             },},{id: "coffee-blue-lagoon",
           title: 'Blue Lagoon',
           description: "",
