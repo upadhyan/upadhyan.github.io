@@ -233,6 +233,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/downtempo_decaf/";
+            },},{id: "coffee-el-ubérrimo",
+          title: 'El Ubérrimo',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/el_uberrimo_found/";
             },},{id: "coffee-the-new-school-lychee",
           title: 'The New School - Lychee',
           description: "",
