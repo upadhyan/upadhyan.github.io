@@ -12,6 +12,7 @@ tags: Strawberry, Blueberry, Orange Cake
 categories: filter, espresso
 buy_link: https://www.dakcoffeeroasters.com/shop/coffee/blue-lagoon?quantity=250g&roast=espresso
 roasted: 2026-01-21
+stars: 4.5
 ---
 Ok this was a good coffee. Like really good, especially on filter. The blueberry notes are very strong when you taste it, but interestingly the smell is very strawberry like. Not to mention, there is a buttery aftertaste and feel that I really enjoyed that made me come back from more. 
 

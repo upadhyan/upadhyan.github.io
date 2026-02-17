@@ -11,6 +11,7 @@ cover: assets/img/coffee/buno_acquiares.png
 tags: Ruby-Port-Wine, Tropical-Fruits, Lemon-Candy
 categories: filter, espresso
 buy_link: https://www.instagram.com/p/DOLuFfFjXQp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==
+stars: 4.5
 roasted: 2026-02-06
 ---
 

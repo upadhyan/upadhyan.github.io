@@ -11,8 +11,8 @@ cover: assets/img/coffee/thenewschool.png
 tags: lychee-soda, sweet-lemon, milk-chocolate
 categories: filter, espresso
 buy_link: https://www.blackwhiteroasters.com/products/r-the-new-school-lychee
-stars: 3.5
-roasted: 2026-1-01
+stars: 3.0
+roasted: 2026-01-01
 ---
 
 It's decent and I have no complaints. Its very.... herbal and medicinal? I've brewed it on Aeropress, filter, and espresso and while I've liked it, I havent LOVED it. 

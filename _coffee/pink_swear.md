@@ -12,7 +12,6 @@ tags: Figs, Jasmine, Hibiscus
 categories: filter
 buy_link: https://www.dakcoffeeroasters.com/shop/coffee/pinky-swear?quantity=125g&roast=filter
 stars: 5.0
-stars: 5.0
 roasted: 2026-01-14
 ---
 This is a classic, CLASSIC, washed coffee. incredibly clean, light, and sweet. Very reminiscent of a lightly sweetened southern iced tea. Super drinkable and leaves a very pleasant aftertaste. 

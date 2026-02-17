@@ -11,7 +11,7 @@ cover: assets/img/coffee/Decaf_Elixir_250G_Espresso-900x900.webp
 tags: Red-Apple, Cane-Sugar, Golden-Kiwi
 categories: filter,espresso
 buy_link: https://manhattancoffeeroasters.com/product/coffees/exceptional/decaf-elixir/?v=5435c69ed3bc
-stars: 5.0
+stars: 4.5
 roasted: 2026-01-16
 ---
 Mellow sweetness is the phrase I'd use to describe this coffee. Basically like fresh apple juice: not insanely sweet like the prepackaged stuff, but sweet enough that you can chug the whole thing down like soda. Very pleasant. Additionally, this is a decaf! And you really can't tell. The Swiss Water process is impressing me again. 
