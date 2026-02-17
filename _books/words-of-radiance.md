@@ -1,15 +1,15 @@
 ---
 layout: book-review
-title: The Way of Kings
+title: Words of Radiance
 author: Brandon Sanderson
-cover: assets/img/book_covers/way_of_kings.jpg
-olid:  OL25883754M # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 9780765326355 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+cover: assets/img/book_covers/WordsOfRadianceCover.png
+olid:  OL25438720M # use Open Library ID to fetch cover (if no `cover` is provided)
+isbn: 9780765326362 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: high-fantasy
 tags: fantasy medieval
-buy_link: https://openlibrary.org/books/OL25883754M/The_Way_of_Kings
-started: 2026-02-08
-finished: 2026-02-10
+buy_link: https://openlibrary.org/books/OL25438720M/Words_of_Radiance
+started: 2026-02-11
+finished: 2026-02-14
 released: 2010
 stars: 5
 goodreads_review: 
