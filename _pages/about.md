@@ -28,15 +28,7 @@ latest_posts:
 ---
 
 
-Hi! I'm Nakul Upadhya and I'm a Doctoral Candidate at The University of Toronto in the [Optimization and Machine Learning (OptiMaL) Lab](https://optimal.mie.utoronto.ca/) at the University of Toronto under Professor [Eldan Cohen](https://discover.research.utoronto.ca/25612-eldan-cohen). My research focuses on developing inherently interpretable machine learning models for tabular and time-series data, with applications in manufacturing and healthcare.
+Hi! I'm Nakul Upadhya and I'm a Doctoral Candidate at the [Optimization and Machine Learning (OptiMaL) Lab](https://optimal.mie.utoronto.ca/) at the University of Toronto under Professor [Eldan Cohen](https://discover.research.utoronto.ca/25612-eldan-cohen). My research focuses on developing inherently interpretable machine learning models for tabular and time-series data, with applications in manufacturing and healthcare. My current line of work focuses on the concept of augmenting interpretable ML algorithms with "shape functions" - feature specific non-linear transformations - that allow for increased model expressiveness while retaining interpretability. 
 
-Apart from research, I'm very interested in speciality coffee and trying new coffee beans and cafes. [Check out the coffee I'm drinking](/coffee/)! Currently I'm developing a machine learning model for predicting espresso grind sizes for various coffees. If you are interested in contributing data for this project, send me an email!
 
-<!-- 
-Doctoral Candidate @ The University of Toronto | Researching inherently interpretable machine learning approaches for tabular and time-series data.
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+Apart from research, I'm very interested in speciality coffee and trying new coffee beans and cafes. [Check out the coffee I'm drinking](/coffee/)! Currently I'm developing a machine learning model for predicting espresso grind sizes for various coffees. If you are interested in contributing data for this project, send me an email! Additionally, I'm getting back into actual reading apart from papers, so check out my [recently read books](/reading-list/). 
