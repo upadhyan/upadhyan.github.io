@@ -12,9 +12,10 @@ tags: Raspberry, Clementine, Hibiscus
 categories: filter, espresso
 buy_link: https://www.found.coffee/s/order?shipping=true&item=TMWDY4L5KESDBZI5HB7BZ2W2
 roasted: 2026-01-19
+stars: 4.5
 ---
 
-TBD 
+Very Pleasant. I don't get as much rasberry, but the clementine and hibiscus do come through really nicely. Great coffee. 
 
 ## From the Roaster
 
