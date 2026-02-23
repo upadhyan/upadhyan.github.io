@@ -7,7 +7,7 @@ producer: "Julio Madrid"
 varietal: "Caturra"
 masl: 1600
 process: Vanilla Culturing
-cover: assets/img/coffee/tanat_finca_milab.png
+cover: assets/img/coffee/tanat_finca_milan.png
 tags: Vanilla, Nougat, Cinnamon
 categories: filter,aeropress
 buy_link: https://tanat.coffee/en/boutique/finca-milan-vanilla-process/
