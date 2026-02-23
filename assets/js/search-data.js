@@ -258,6 +258,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/sept_finc_tamana/";
+            },},{id: "coffee-finca-milan-vanilla-process",
+          title: 'Finca Milan [Vanilla Process]',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/tanat_finca_milan/";
             },},{id: "coffee-worka-sakaro",
           title: 'Worka Sakaro',
           description: "",
