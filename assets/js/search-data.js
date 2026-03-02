@@ -188,6 +188,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/minor_detail/";
+            },},{id: "books-oathbringer",
+          title: 'Oathbringer',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/oathbringer/";
             },},{id: "books-perfection",
           title: 'Perfection',
           description: "",
