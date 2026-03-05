@@ -1,16 +1,16 @@
 ---
 layout: book-review
-title: Oathbringer
+title: Rhythm of War
 author: Brandon Sanderson
-cover: assets/img/book_covers/oathbringer.jpg
-olid:  OL26421466M # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 9780765326379 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+cover: 
+olid:  OL33053463M # use Open Library ID to fetch cover (if no `cover` is provided)
+isbn: 9780765365309 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: high-fantasy
 tags: fantasy medieval
-buy_link: https://openlibrary.org/works/OL17834026W/Oathbringer
-started: 2026-02-16
-finished: 2026-03-02
-released: 2017
+buy_link: https://openlibrary.org/works/OL20842226W/Rhythm_of_War
+started: 2026-03-02
+finished: 2026-03-05
+released: 2022
 stars: 5
 goodreads_review: 
 status: Finished

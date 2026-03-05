@@ -10,7 +10,7 @@ tags: fantasy medieval
 buy_link: https://openlibrary.org/books/OL25438720M/Words_of_Radiance
 started: 2026-02-11
 finished: 2026-02-14
-released: 2010
+released: 2014
 stars: 5
 goodreads_review: 
 status: Finished
