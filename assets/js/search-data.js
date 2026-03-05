@@ -198,6 +198,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/perfection/";
+            },},{id: "books-rhythm-of-war",
+          title: 'Rhythm of War',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/rhythm_of_war/";
             },},{id: "books-in-the-skin-of-a-lion",
           title: 'In the Skin of a Lion',
           description: "",
