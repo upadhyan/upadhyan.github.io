@@ -263,6 +263,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/pink_swear/";
+            },},{id: "coffee-loverboy",
+          title: 'Loverboy',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/rosso_loverboy/";
             },},{id: "coffee-finca-tamana-elias-roa",
           title: 'Finca Tamana - Elias Roa',
           description: "",
