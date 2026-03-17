@@ -1384,6 +1384,27 @@ figure.cover {
     vertical-align: bottom;
   }
 
+  a.cover-link {
+    position: relative;
+    display: inline-block;
+  }
+
+  figcaption.stars-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 4px 0;
+    color: #f5c518;
+    font-size: 0.85rem;
+
+    i.fa-regular {
+      color: #888;
+    }
+  }
+
   figcaption.abandoned {
     font-family: monospace;
     color: #23212d;
