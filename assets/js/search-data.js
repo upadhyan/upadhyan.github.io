@@ -223,6 +223,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/way-of-kings/";
+            },},{id: "books-wind-and-truth",
+          title: 'Wind and Truth',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/wind_and_truth/";
             },},{id: "books-words-of-radiance",
           title: 'Words of Radiance',
           description: "",
