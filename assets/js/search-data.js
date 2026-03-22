@@ -168,6 +168,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/adogheart/";
+            },},{id: "books-agua-viva",
+          title: 'Agua Viva',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/agua_viva/";
             },},{id: "books-the-english-understand-wool",
           title: 'The English Understand Wool',
           description: "",
@@ -258,6 +263,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/el_uberrimo_found/";
+            },},{id: "coffee-boyaca-community-blend",
+          title: 'Boyaca Community Blend',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/even_boyaca/";
             },},{id: "coffee-the-new-school-lychee",
           title: 'The New School - Lychee',
           description: "",
