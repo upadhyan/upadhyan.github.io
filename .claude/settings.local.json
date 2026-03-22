@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(ruby:*)",
+      "Bash(bundler:*)",
+      "Bash(docker:*)",
+      "Bash(convert:*)",
+      "Bash(bundle install:*)",
+      "Bash(bundle config:*)",
+      "Bash(bundle exec:*)",
+      "Bash(sleep:*)"
     ]
   }
 }
