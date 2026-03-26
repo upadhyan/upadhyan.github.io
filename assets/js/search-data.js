@@ -193,6 +193,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/minor_detail/";
+            },},{id: "books-mistborn-the-final-empire",
+          title: 'Mistborn - The Final Empire',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mistborn1/";
+            },},{id: "books-mistborn-the-well-of-ascension",
+          title: 'Mistborn - The Well of Ascension',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mistborn2/";
             },},{id: "books-oathbringer",
           title: 'Oathbringer',
           description: "",
