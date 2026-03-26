@@ -283,6 +283,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/new_school/";
+            },},{id: "coffee-pillow-talk",
+          title: 'Pillow Talk',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/pillow_talk/";
             },},{id: "coffee-pinky-swear",
           title: 'Pinky Swear',
           description: "",
