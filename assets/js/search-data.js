@@ -278,6 +278,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/even_boyaca/";
+            },},{id: "coffee-finca-miramar",
+          title: 'Finca Miramar',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/finca_miramar/";
             },},{id: "coffee-the-new-school-lychee",
           title: 'The New School - Lychee',
           description: "",
