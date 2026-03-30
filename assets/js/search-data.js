@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/coffee/";
           },
-        },{id: "nav-reading-list",
-          title: "Reading List",
+        },{id: "nav-book-shelf",
+          title: "Book Shelf",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/reading-list/";
+            window.location.href = "/book-shelf/";
           },
         },{id: "post-introduction-to-interpretable-clustering",
         
@@ -203,6 +203,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/mistborn2/";
+            },},{id: "books-mistborn-hero-of-ages",
+          title: 'Mistborn - Hero of Ages',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mistborn3/";
+            },},{id: "books-the-alloy-of-law",
+          title: 'The Alloy of Law',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mistborn4/";
             },},{id: "books-oathbringer",
           title: 'Oathbringer',
           description: "",

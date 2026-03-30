@@ -83,7 +83,7 @@ GitHub Actions workflows in `.github/workflows/`:
 
 ## Book Reviews (`_books/`)
 
-Each book is a Markdown file in `_books/` using `layout: book-review`. The shelf listing is at `_pages/books.md` (permalink `/reading-list/`), rendered by `book-shelf.liquid`. Use any existing `_books/*.md` file as a template for front matter fields (title, author, cover, status, stars, etc.).
+Each book is a Markdown file in `_books/` using `layout: book-review`. The shelf listing is at `_pages/books.md` (permalink `/book-shelf/`), rendered by `book-shelf.liquid`. Use any existing `_books/*.md` file as a template for front matter fields (title, author, cover, status, stars, etc.).
 
 Key behaviors:
 - Cover images resolve in order: `cover` (local path) → `olid` (Open Library) → `isbn` (Open Library)
