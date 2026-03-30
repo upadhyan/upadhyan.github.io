@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Reading List
-permalink: /reading-list/
+title: Book Shelf
+permalink: /book-shelf/
+redirect_from: /reading-list/
 nav: true
 nav_order: 4
 collection: books
