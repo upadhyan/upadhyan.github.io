@@ -318,6 +318,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/sept_finc_tamana/";
+            },},{id: "coffee-red-velvet",
+          title: 'Red Velvet',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/sept_red_velvet/";
             },},{id: "coffee-finca-milan-vanilla-process",
           title: 'Finca Milan [Vanilla Process]',
           description: "",
