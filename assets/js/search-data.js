@@ -313,6 +313,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/rosso_loverboy/";
+            },},{id: "coffee-santa-isabel",
+          title: 'Santa Isabel',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/santa_isabel_market_lane/";
             },},{id: "coffee-finca-tamana-elias-roa",
           title: 'Finca Tamana - Elias Roa',
           description: "",
