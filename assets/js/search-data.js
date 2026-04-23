@@ -293,6 +293,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/finca_miramar/";
+            },},{id: "coffee-rootbeer-float",
+          title: 'Rootbeer Float',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/luna_rootbeer_float/";
             },},{id: "coffee-the-new-school-lychee",
           title: 'The New School - Lychee',
           description: "",
