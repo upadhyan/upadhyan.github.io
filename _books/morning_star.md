@@ -2,7 +2,7 @@
 layout: book-review
 title: Morning Star
 author: Pierce Brown
-cover: 
+cover: assets/img/book_covers/morning_star.jpg
 olid:  OL19650409W # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 
 categories: science-fiction

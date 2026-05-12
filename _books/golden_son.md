@@ -2,7 +2,7 @@
 layout: book-review
 title: Golden Son
 author: Pierce Brown
-cover: 
+cover: assets/img/book_covers/golden_son.jpg
 olid:  OL19340986W # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 
 categories: science-fiction

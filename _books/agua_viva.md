@@ -8,8 +8,8 @@ isbn: 9780811219907 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: stream-of-conciousness
 tags: crime drama funny publishing
 buy_link: https://openlibrary.org/books/OL25223654M/%C3%81gua_viva
-started: 2026-08-08
-finished: 2026-08-09
+started: 2026-02-08
+finished: 2026-02-09
 released: 1973
 stars: 2
 goodreads_review: 
