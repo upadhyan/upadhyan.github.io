@@ -178,6 +178,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/english_wool/";
+            },},{id: "books-golden-son",
+          title: 'Golden Son',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/golden_son/";
             },},{id: "books-kick-the-latch",
           title: 'Kick the Latch',
           description: "",
@@ -213,6 +218,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/mistborn4/";
+            },},{id: "books-shadows-of-self",
+          title: 'Shadows of Self',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mistborn5/";
+            },},{id: "books-the-bands-of-mourning",
+          title: 'The Bands of Mourning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mistborn6/";
+            },},{id: "books-the-lost-metal",
+          title: 'The Lost Metal',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mistborn7/";
+            },},{id: "books-morning-star",
+          title: 'Morning Star',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/morning_star/";
             },},{id: "books-oathbringer",
           title: 'Oathbringer',
           description: "",
@@ -223,6 +248,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/perfection/";
+            },},{id: "books-red-rising",
+          title: 'Red Rising',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/red_rising/";
             },},{id: "books-rhythm-of-war",
           title: 'Rhythm of War',
           description: "",
