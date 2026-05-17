@@ -298,6 +298,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/blue_lagoon/";
+            },},{id: "coffee-condor-decaf",
+          title: 'Condor Decaf',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/cc_decaf_rw/";
             },},{id: "coffee-decaf-elixer",
           title: 'Decaf Elixer',
           description: "",
@@ -313,6 +318,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/el_uberrimo_found/";
+            },},{id: "coffee-francy-castillo-semi-washed",
+          title: 'Francy Castillo Semi-Washed',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/ethica_francy_castillo_sw/";
             },},{id: "coffee-boyaca-community-blend",
           title: 'Boyaca Community Blend',
           description: "",
@@ -343,6 +353,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/pink_swear/";
+            },},{id: "coffee-bensa-bekele-yutute",
+          title: 'Bensa Bekele Yutute',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/rogue_wave_bensa_bekele/";
             },},{id: "coffee-loverboy",
           title: 'Loverboy',
           description: "",
