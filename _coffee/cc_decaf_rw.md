@@ -11,7 +11,7 @@ cover: assets/img/coffee/ccdecaf_rw.webp
 tags: Apple, Milk Chocolate, Hazelnut, Orange, Caramel
 categories: filter, espresso
 buy_link: https://www.dakcoffeeroasters.com/shop/coffee/blue-lagoon?quantity=250g&roast=espresso
-roasted: 2026-01-21
+roasted: 2026-04-30
 stars: 4.0
 ---
 
