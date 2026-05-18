@@ -8,8 +8,8 @@ isbn:
 categories: historical fantasy
 tags: philosophy fantasy
 buy_link: https://openlibrary.org/books/OL24953402M/The_Alchemist
-started: 2025-05-17
-finished: 2025-05-17
+started: 2026-05-17
+finished: 2026-05-17
 released: 1988
 stars: 
 goodreads_review: 
