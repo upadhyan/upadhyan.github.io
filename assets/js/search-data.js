@@ -323,6 +323,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/el_uberrimo_found/";
+            },},{id: "coffee-el-senderio",
+          title: 'El Senderio',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/ethica_el_sendero/";
             },},{id: "coffee-francy-castillo-semi-washed",
           title: 'Francy Castillo Semi-Washed',
           description: "",
@@ -338,6 +343,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/finca_miramar/";
+            },},{id: "coffee-el-silencio",
+          title: 'El Silencio',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/gardeli_elsilencio/";
             },},{id: "coffee-rootbeer-float",
           title: 'Rootbeer Float',
           description: "",
