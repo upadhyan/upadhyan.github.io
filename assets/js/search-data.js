@@ -173,6 +173,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/agua_viva/";
+            },},{id: "books-the-cure-for-drowning",
+          title: 'The Cure for Drowning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cure_for_drowning/";
             },},{id: "books-the-english-understand-wool",
           title: 'The English Understand Wool',
           description: "",
@@ -193,6 +198,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/lotm/";
+            },},{id: "books-the-master-and-margarita",
+          title: 'The Master and Margarita',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/master_and_margarita/";
             },},{id: "books-minor-detail",
           title: 'Minor Detail',
           description: "",
@@ -288,6 +298,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/wind_and_truth/";
+            },},{id: "books-women-without-men",
+          title: 'Women Without Men',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/women_without_men/";
             },},{id: "books-words-of-radiance",
           title: 'Words of Radiance',
           description: "",
