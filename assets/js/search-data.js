@@ -338,6 +338,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/el_uberrimo_found/";
+            },},{id: "coffee-autumn-amber",
+          title: 'Autumn Amber',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/ethica_autumn_amber/";
             },},{id: "coffee-el-senderio",
           title: 'El Senderio',
           description: "",
