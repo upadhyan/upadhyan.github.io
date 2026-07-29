@@ -388,6 +388,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/pink_swear/";
+            },},{id: "coffee-quebraditas-blackberry-coferment",
+          title: 'Quebraditas Blackberry Coferment',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/quebraditas_blackberry/";
             },},{id: "coffee-bensa-bekele-yutute",
           title: 'Bensa Bekele Yutute',
           description: "",
