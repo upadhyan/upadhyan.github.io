@@ -173,6 +173,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/agua_viva/";
+            },},{id: "books-unsouled",
+          title: 'Unsouled',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cradle1/";
+            },},{id: "books-soulsmith",
+          title: 'Soulsmith',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cradle2/";
+            },},{id: "books-blackflame",
+          title: 'Blackflame',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cradle3/";
+            },},{id: "books-skysworn",
+          title: 'Skysworn',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cradle4/";
             },},{id: "books-the-cure-for-drowning",
           title: 'The Cure for Drowning',
           description: "",
