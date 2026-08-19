@@ -353,6 +353,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/cc_decaf_rw/";
+            },},{id: "coffee-sudoku",
+          title: 'Sudoku',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/dak_sudoku/";
             },},{id: "coffee-decaf-elixer",
           title: 'Decaf Elixer',
           description: "",
