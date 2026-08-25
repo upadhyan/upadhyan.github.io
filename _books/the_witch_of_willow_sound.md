@@ -2,7 +2,7 @@
 layout: book-review
 title: The Witch of Willow Sound
 author: Vanessa F. Penney
-cover:
+cover: assets/img/book_covers/e8f393_74739f1b9f4b4d639a96e7cb3a772ffb~mv2.avif
 olid: OL60843973M
 isbn: 
 categories: fiction
