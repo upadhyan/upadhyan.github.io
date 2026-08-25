@@ -4,7 +4,7 @@ title: The Witch of Willow Sound
 author: Vanessa F. Penney
 cover:
 olid: OL60843973M
-isbn: 9781770418424
+isbn: 
 categories: fiction
 buy_link: https://openlibrary.org/books/OL60843973M
 started: 2026-08-23
