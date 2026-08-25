@@ -178,6 +178,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/cradle1/";
+            },},{id: "books-reaper",
+          title: 'Reaper',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cradle10/";
+            },},{id: "books-dreadgod",
+          title: 'Dreadgod',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cradle11/";
+            },},{id: "books-waybound",
+          title: 'Waybound',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cradle12/";
             },},{id: "books-soulsmith",
           title: 'Soulsmith',
           description: "",
@@ -203,6 +218,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/cradle6/";
+            },},{id: "books-uncrowned",
+          title: 'Uncrowned',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cradle7/";
+            },},{id: "books-wintersteel",
+          title: 'Wintersteel',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cradle8/";
+            },},{id: "books-bloodline",
+          title: 'Bloodline',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cradle9/";
             },},{id: "books-the-cure-for-drowning",
           title: 'The Cure for Drowning',
           description: "",
