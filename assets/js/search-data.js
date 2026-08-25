@@ -308,6 +308,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_dry_heart/";
+            },},{id: "books-the-witch-of-willow-sound",
+          title: 'The Witch of Willow Sound',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_witch_of_willow_sound/";
             },},{id: "books-the-alchemist",
           title: 'The Alchemist',
           description: "",
