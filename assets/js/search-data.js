@@ -393,6 +393,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/dak_sudoku/";
+            },},{id: "coffee-duvixe-tamiru-tadesse",
+          title: 'DUVIXE: Tamiru Tadesse',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/david_kim_duvixe/";
             },},{id: "coffee-decaf-elixer",
           title: 'Decaf Elixer',
           description: "",
@@ -488,6 +493,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/sept_finc_tamana/";
+            },},{id: "coffee-jellybean",
+          title: 'Jellybean',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/sept_jellybean/";
             },},{id: "coffee-red-velvet",
           title: 'Red Velvet',
           description: "",
