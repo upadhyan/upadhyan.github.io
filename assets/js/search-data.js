@@ -448,6 +448,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/luna_rootbeer_float/";
+            },},{id: "coffee-candy-blast-decaf",
+          title: 'Candy Blast Decaf',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/monogram_candy_blast_decaf/";
             },},{id: "coffee-the-new-school-lychee",
           title: 'The New School - Lychee',
           description: "",
