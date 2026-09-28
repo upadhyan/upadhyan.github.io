@@ -503,6 +503,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/sept_red_velvet/";
+            },},{id: "coffee-alo-mosto-anaerobic-natural",
+          title: 'Alo Mosto Anaerobic Natural',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/tanat_alo/";
             },},{id: "coffee-finca-milan-vanilla-process",
           title: 'Finca Milan [Vanilla Process]',
           description: "",
