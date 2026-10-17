@@ -458,6 +458,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/new_school/";
+            },},{id: "coffee-gicherori-aa",
+          title: 'Gicherori AA',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/obadiah_gicherori/";
             },},{id: "coffee-pillow-talk",
           title: 'Pillow Talk',
           description: "",
