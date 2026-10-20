@@ -1,0 +1,71 @@
+{% assign shelf_items = include.collection | sort: include.date_key | reverse %}
+{% assign shelf_year = '' %}
+<div class="collection-shelf collection-shelf--{{ include.kind }}">
+  {% for item in shelf_items %}
+    {% assign item_date = item[include.date_key] | default: item.date %}
+    {% assign current_year = item_date | date: '%Y' %}
+    {% if current_year != shelf_year %}
+      {% unless forloop.first %}
+        </ul>
+        </section>
+      {% endunless %}
+      <section class="shelf-year" aria-labelledby="y{{ current_year }}">
+        <h2 id="y{{ current_year }}" class="shelf-year-title">
+          <a href="{{ current_year | prepend: '/' | prepend: include.kind | prepend: '/' | relative_url }}">{{ current_year }}</a>
+        </h2>
+        <ul class="shelf-grid">
+          {% assign shelf_year = current_year %}
+    {% endif %}
+    <li class="shelf-item">
+      <a class="shelf-link" href="{{ item.url | relative_url }}">
+        <div class="shelf-image">
+          {% assign cover_url = '' %}
+          {% if item.cover %}
+            {% assign cover_prefix = item.cover | slice: 0, 4 %}
+            {% if cover_prefix == 'http' %}
+              {% assign cover_url = item.cover %}
+            {% else %}
+              {% assign cover_url = item.cover | prepend: page.covers | relative_url %}
+            {% endif %}
+          {% elsif item.olid %}
+            {% assign cover_url = item.olid | prepend: 'https://covers.openlibrary.org/b/olid/' | append: '-L.jpg?default=false' %}
+          {% elsif item.isbn %}
+            {% assign cover_url = item.isbn | prepend: 'https://covers.openlibrary.org/b/isbn/' | append: '-L.jpg?default=false' %}
+          {% endif %}
+          {% if cover_url != '' %}
+            <img src="{{ cover_url | escape }}" alt="{{ item.title | escape }} cover" loading="lazy" decoding="async">
+          {% else %}
+            <span class="shelf-image-placeholder">{{ item.title }}</span>
+          {% endif %}
+        </div>
+        <div class="shelf-caption">
+          <h3>{{ item.title }}</h3>
+          {% if include.kind == 'coffee' %}
+            <p class="shelf-byline">{{ item.roaster }}</p>
+            <p class="shelf-detail">{{ item.origin | replace: 'Columbia', 'Colombia' }}</p>
+          {% else %}
+            <p class="shelf-byline">{{ item.author }}</p>
+          {% endif %}
+          <div class="shelf-meta">
+            {% if include.kind == 'books' %}
+              {% assign status = item.status | default: 'uncategorized' | downcase | strip %}
+              {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+              {% unless statuses contains status %}{% assign status = 'uncategorized' %}{% endunless %}
+              <span class="shelf-status shelf-status--{{ status }}">{{ status | capitalize }}</span>
+            {% endif %}
+            {% if item.stars %}
+              <span class="shelf-rating" aria-label="{{ item.stars }} out of 5 stars"
+                ><span aria-hidden="true">★</span> {{ item.stars -}}
+                <span class="shelf-rating-total"> / 5</span></span
+              >
+            {% endif %}
+          </div>
+        </div>
+      </a>
+    </li>
+    {% if forloop.last %}
+      </ul>
+      </section>
+    {% endif %}
+  {% endfor %}
+</div>

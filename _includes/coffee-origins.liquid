@@ -1,0 +1,51 @@
+{%- capture origin_names -%}
+  {%- for coffee in site.coffee -%}
+    {%- assign countries = coffee.origin | replace: 'Columbia', 'Colombia' | split: ',' -%}
+    {%- capture normalized_countries -%}
+      {%- for country in countries -%}{{ country | strip }}|{%- endfor -%}
+    {%- endcapture -%}
+    {%- assign countries = normalized_countries | split: '|' | uniq -%}
+    {%- for country in countries -%}
+      {%- unless country == '' -%}{{ country }}|{%- endunless -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{% assign origins = origin_names | split: '|' %}
+{% assign unique_origins = origins | uniq | sort %}
+<section class="coffee-origins" aria-labelledby="coffee-origins-title">
+  <div class="coffee-origins-heading">
+    <h2 id="coffee-origins-title">A world of coffee</h2>
+  </div>
+  <style>
+    {% for country in unique_origins %}
+      {% if country == '' %}{% continue %}{% endif %}
+      {% assign appearances = 0 %}
+      {% for origin in origins %}{% if origin == country %}{% assign appearances = appearances | plus: 1 %}{% endif %}{% endfor %}
+      {% assign level = 1 %}
+      {% if appearances >= 10 %}{% assign level = 4 %}{% elsif appearances >= 5 %}{% assign level = 3 %}{% elsif appearances >= 2 %}{% assign level = 2 %}{% endif %}
+      .coffee-world-map .origin-{{ country | slugify }} { fill: var(--origin-{{ level }}); }
+    {% endfor %}
+  </style>
+  {% include coffee-world-map.svg %}
+  <div class="origin-legend" aria-label="Map color key, number of coffees">
+    <span><i class="origin-swatch origin-level-0"></i>0</span>
+    <span><i class="origin-swatch origin-level-1"></i>1</span>
+    <span><i class="origin-swatch origin-level-2"></i>2–4</span>
+    <span><i class="origin-swatch origin-level-3"></i>5–9</span>
+    <span><i class="origin-swatch origin-level-4"></i>10+</span>
+    <span>coffees</span>
+  </div>
+  <ul class="origin-counts" aria-label="Coffees by origin country">
+    {% for country in unique_origins %}
+      {% if country == '' %}{% continue %}{% endif %}
+      {% assign appearances = 0 %}
+      {% for origin in origins -%}
+        {%- if origin == country %}{% assign appearances = appearances | plus: 1 %}{% endif -%}
+      {%- endfor %}
+      <li>
+        <span>{{ country }}</span><strong>{{ appearances }}</strong>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="origin-attribution">Map: <a href="https://www.naturalearthdata.com/">Natural Earth</a></p>
+</section>
