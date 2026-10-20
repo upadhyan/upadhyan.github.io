@@ -443,6 +443,11 @@ ninja.data = [{
           description: "",
           section: "Coffee",handler: () => {
               window.location.href = "/coffee/gardeli_elsilencio/";
+            },},{id: "coffee-la-indonesia",
+          title: 'La Indonesia',
+          description: "",
+          section: "Coffee",handler: () => {
+              window.location.href = "/coffee/la_indonesia_found/";
             },},{id: "coffee-rootbeer-float",
           title: 'Rootbeer Float',
           description: "",
