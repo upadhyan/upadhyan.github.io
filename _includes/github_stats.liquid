@@ -1,0 +1,41 @@
+{% assign github_username = site.data.socials.github_username %}
+<section class="github-stats" aria-labelledby="github-stats-title">
+  <div class="github-stats-header">
+    <h2 id="github-stats-title"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</h2>
+    <a href="https://github.com/{{ github_username }}">@{{ github_username }}</a>
+  </div>
+  <a
+    class="github-stats-summary"
+    href="https://github.com/{{ github_username }}"
+    aria-label="View {{ github_username }}'s GitHub profile and statistics"
+  >
+    <img
+      class="only-light"
+      src="https://github-readme-stats.vercel.app/api/?username={{ github_username }}&show_icons=true&hide_title=true&hide_border=true&bg_color=00000000&text_color=3c4133&icon_color=b509ac&title_color=b509ac&hide_rank=true&disable_animations=true"
+      alt="GitHub statistics: stars earned, commits in the last year, pull requests, issues, and repositories contributed to."
+      width="336"
+      height="165"
+      loading="lazy"
+    >
+    <img
+      class="only-dark"
+      src="https://github-readme-stats.vercel.app/api/?username={{ github_username }}&show_icons=true&hide_title=true&hide_border=true&bg_color=00000000&text_color=eeeeee&icon_color=e891e2&title_color=e891e2&hide_rank=true&disable_animations=true"
+      alt="GitHub statistics: stars earned, commits in the last year, pull requests, issues, and repositories contributed to."
+      width="336"
+      height="165"
+      loading="lazy"
+    >
+  </a>
+  <div class="github-stats-calendar">
+    <p>A year of building</p>
+    <a href="https://github.com/{{ github_username }}?tab=overview">
+      <img
+        src="https://ghchart.rshah.org/b509ac/{{ github_username }}"
+        alt="{{ github_username }}'s GitHub contributions over the past year; darker squares indicate more activity. View the accessible contribution details on GitHub."
+        width="663"
+        height="104"
+        loading="lazy"
+      >
+    </a>
+  </div>
+</section>

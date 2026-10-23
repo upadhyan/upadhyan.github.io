@@ -1,0 +1,236 @@
+.about-container,
+.about-page .navbar .container {
+  max-width: 1280px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr) 300px;
+  grid-template-areas:
+    "profile heading updates"
+    "profile main updates";
+  gap: 1.75rem 2rem;
+  align-items: start;
+
+  > * {
+    min-width: 0;
+  }
+
+  h2 {
+    font-size: 1.45rem;
+    margin-bottom: 1rem;
+
+    a,
+    a:hover {
+      color: inherit;
+    }
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+}
+
+.about-heading {
+  grid-area: heading;
+  margin: 0;
+
+  .post-title {
+    font-size: 2.5rem;
+    line-height: 1.15;
+  }
+
+  .desc {
+    margin: 0.75rem 0 0;
+    color: var(--global-text-color-light);
+  }
+}
+
+.about-profile {
+  grid-area: profile;
+  font-size: 0.875rem;
+
+  figure {
+    margin: 0 0 1.25rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .more-info {
+    margin-top: 1.25rem;
+    color: var(--global-text-color-light);
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .about-contact {
+    margin: 1.25rem 0 0;
+    text-align: left;
+
+    .contact-icons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.about-main {
+  grid-area: main;
+
+  > h2:not(:first-child),
+  > .about-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .publications {
+    margin-top: 1.25rem;
+
+    .links a.btn {
+      color: var(--global-text-color);
+      border-color: var(--global-text-color);
+    }
+  }
+}
+
+.about-section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+
+  > a {
+    font-size: 0.85rem;
+  }
+}
+
+.about-updates {
+  grid-area: updates;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 0.875rem;
+
+  .github-stats {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .github-stats-header h2 {
+    font-size: 1.15rem;
+  }
+
+  .github-stats-header a {
+    font-size: 0.8rem;
+  }
+
+  .about-news {
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .news table,
+  .news tbody,
+  .news tr,
+  .news th,
+  .news td {
+    display: block;
+    width: 100% !important;
+  }
+
+  .news tr {
+    margin-bottom: 1.25rem;
+  }
+
+  .news .table {
+    color: var(--global-text-color);
+  }
+
+  .news th {
+    padding: 0 0 0.35rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--global-text-color-light);
+  }
+
+  .news td {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .about-grid {
+    grid-template-columns: 160px minmax(0, 1fr);
+    grid-template-areas:
+      "profile heading"
+      "profile main"
+      ". updates";
+  }
+
+  .about-updates .github-stats {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-page {
+    padding-bottom: 0;
+
+    footer.fixed-bottom {
+      position: static;
+      margin-top: 2rem;
+    }
+  }
+
+  .about-grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "heading" "profile" "main" "updates";
+  }
+
+  .about-heading .post-title {
+    font-size: 2.15rem;
+  }
+
+  .about-profile {
+    display: grid;
+    grid-template-columns: 100px minmax(0, 1fr);
+    gap: 1.25rem;
+
+    figure {
+      margin: 0;
+    }
+
+    .more-info,
+    .about-contact {
+      margin-top: 0.75rem;
+    }
+  }
+
+  .about-news {
+    order: -1;
+  }
+
+  .about-main .publications ol.bibliography > li > .row {
+    display: grid;
+    grid-template-columns: 70px minmax(0, 1fr);
+    gap: 1rem;
+    margin: 0;
+
+    > div {
+      width: 100%;
+      max-width: none;
+      padding: 0;
+      min-width: 0;
+    }
+  }
+}
