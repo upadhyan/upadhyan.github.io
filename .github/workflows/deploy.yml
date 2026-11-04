@@ -71,7 +71,7 @@ concurrency:
 jobs:
   deploy:
     # https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # Ruby 3.3.5 is unavailable on Ubuntu 26.04.
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
