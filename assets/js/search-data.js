@@ -238,6 +238,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/cure_for_drowning/";
+            },},{id: "books-dungeon-crawler-carl",
+          title: 'Dungeon Crawler Carl',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeon_crawler_carl1/";
+            },},{id: "books-carl-39-s-doomsday-scenario",
+          title: 'Carl&amp;#39;s Doomsday Scenario',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeon_crawler_carl2/";
+            },},{id: "books-the-dungeon-anarchist-39-s-cookbook",
+          title: 'The Dungeon Anarchist&amp;#39;s Cookbook',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeon_crawler_carl3/";
             },},{id: "books-the-english-understand-wool",
           title: 'The English Understand Wool',
           description: "",
