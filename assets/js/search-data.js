@@ -253,6 +253,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dungeon_crawler_carl3/";
+            },},{id: "books-the-gate-of-the-feral-gods",
+          title: 'The Gate of the Feral Gods',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeon_crawler_carl4/";
+            },},{id: "books-the-butcher-39-s-masquerade",
+          title: 'The Butcher&amp;#39;s Masquerade',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeon_crawler_carl5/";
+            },},{id: "books-the-eye-of-the-bedlam-bride",
+          title: 'The Eye of the Bedlam Bride',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeon_crawler_carl6/";
+            },},{id: "books-this-inevitable-ruin",
+          title: 'This Inevitable Ruin',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeon_crawler_carl7/";
+            },},{id: "books-a-parade-of-horribles",
+          title: 'A Parade of Horribles',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeon_crawler_carl8/";
             },},{id: "books-the-english-understand-wool",
           title: 'The English Understand Wool',
           description: "",
