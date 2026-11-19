@@ -8,10 +8,10 @@ isbn: 9798588333764
 categories: fantasy
 tags: fantasy litrpg
 buy_link: https://openlibrary.org/books/OL33026470M
-started: 2026-11-02
-finished: 2026-11-02
+started: 2026-11-05
+finished: 2026-11-06
 released: 2021
-stars: 4.0
+stars: 5.0
 goodreads_review:
 status: Finished
 ---
